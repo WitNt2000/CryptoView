@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stock_name>
+    <item key="Binance">https://binance.com</item>
+    <item key="Bitget">https://api.bitget.com</item>
+    <item key="Bybit">https://api.bybit.com</item>
+</stock_name>

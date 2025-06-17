@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Временные частоты для обновления -->
+<timeset_name>
+    <!--item key="four_hours" value="14400">4 hours</item-->
+    <item key="one_hour" value="60">1 hour</item>
+    <item key="thirty_min" value="30">30 min</item>
+    <item key="fifteen_min" value="15">15 min</item>
+    <!--item key="five_min" value="300">5 min</item-->
+</timeset_name>

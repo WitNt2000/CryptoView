@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">CryptoView</string>
+    <!-- Метки фрагметов -->
+    <string name="ticker_list_fragment_label">CryptoView targets</string>
+    <string name="about_fragment_label">About Application</string>
+    <string name="add_ticker_fragment_label">Add ticker</string>
+    <string name="back">Back</string>
+
+    <string name="lorem_ipsum">
+        [EN]\n\n
+        This online application includes a widget and is designed to track the quotes of crypto pairs on
+        the Binance, Bitget, and Bybit exchanges.\n
+        The main table is filled with tickers of interest to the user from three exchanges with the selected
+        the time interval for updating using the HTTPS protocol. A one-day request is being made
+        candles from the beginning of the day either at the user\'s request via the refresh button, or
+        automatically after a selected period of time. The widget has a similar form for settings.\n\n
+        [RU]\n\n
+        Это сетевое приложение имеет в своём составе виджет и предназначено для отслеживания котировок
+        криптопар на биржах Binance, Bitget, Bybit.\n
+        Основная таблица заполняется интересными для пользователя тикерами из трёх бирж с выбранным
+        временным отрезком для обновления с использованием протокола HTTPS. Делается запрос одной дневной
+        свечи от начала суток либо по запросу пользователя через кнопку обновления, либо
+        автоматически через выбранный промежуток времени. Для виджета предусмотрена похожая форма для настроек.
+    </string>
+
+    <!-- Ссылка на приложение в сервисе Google Play -->
+    <string name="play_market_ref">https://play.google.com/store/apps/details?id=com.astra.cryptoview</string>
+    <string name="git_hub_ref">https://github.com/criptoview</string>
+
+    <!-- Новые ресурсы для главного меню -->
+    <string name="menu_add_record">Add record</string>
+    <string name="menu_update_tickers">Update Tickers</string>
+    <string name="menu_update_candle">Update candles</string>
+    <string name="menu_about">About App</string>
+    <string name="menu_share">Share App</string>
+    <string name="menu_github">Github</string>
+    <string name="menu_exit">Exit</string>
+
+    <!-- Цели контекстного меню -->
+    <string name="del">Delete</string>
+    <string name="up">Up</string>
+    <string name="down">Down</string>
+    <string name="update">Update</string>
+
+    <!-- Ресурсы строк для добавления записи отслеживания -->
+    <string name="stock_name">Select stock</string>
+    <string name="ticker_name">Select ticker</string>
+    <string name="frequency">Select update frequency</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Стандартные ресурсы -->
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="open">Open:</string>
+    <string name="high">High:</string>
+    <string name="low">Low:</string>
+    <string name="close">Close:</string>
+    <string name="volume">Volume:</string>
+    <string name="change">Change:</string>
+    <string name="change_per">In %%:</string>
+
+    <!-- Ресурсы ProgressDialog -->
+    <string name="wait">Wait, please...</string>
+    <string name="network_missing">Network is missing</string>
+    <string name="invalid_params">Invalid network parameters</string>
+
+    <!-- Ресурсы настроечного явления -->
+    <string name="dark_text">Apply dark text</string>
+
+    <!-- Ресурсы виджета -->
+    <string name="settings_widget_desc">Widget settings</string>
+
+</resources>

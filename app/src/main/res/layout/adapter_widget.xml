@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="4dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:weightSum="10">
+
+    <!--
+    Это виджет для показа котировки криптовалюты.
+    Первая строка: наименование биржи, криптопара, объём продажи.
+    Вторая строка: цена закрытия, абсолютное изменение, изменение в процентах.
+    Иконка предназначена для настроек
+    -->
+    
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="9"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Первая область для вывода наименования биржы -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/id_stock_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="33"
+                android:text="Binance"
+                android:textSize="18dp"
+                android:textColor="@color/gray"/>
+
+            <TextView
+                android:id="@+id/id_ticker_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="33"
+                android:text="BTCUSDT"
+                android:textSize="16dp"
+                android:textColor="@color/gray"/>
+
+            <TextView
+                android:id="@+id/id_volume"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="33"
+                android:text="100000"
+                android:textSize="18dp"
+                android:textColor="@color/gray"/>
+
+        </LinearLayout>
+
+        <!-- Вторая область для вывода котировочных данных (текущая цена и изменения ) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/id_close_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="33"
+                android:text="1000000"
+                android:textSize="18dp"
+                android:textColor="@color/gray"/>
+
+            <TextView
+                android:id="@+id/id_change_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="33"
+                android:text="1000000"
+                android:textSize="18dp"
+                android:textColor="@color/gray"/>
+
+            <TextView
+                android:id="@+id/id_percent_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="33"
+                android:text="00.00%"
+                android:textSize="18dp"
+                android:textColor="@color/gray"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="2dp">
+
+        <ImageView
+            android:id="@+id/settings_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/outline_construction_36"
+            android:contentDescription="@string/settings_widget_desc"
+            android:minWidth="32dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

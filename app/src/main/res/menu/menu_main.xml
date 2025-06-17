@@ -1,0 +1,56 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.astra.cryptoview.MainActivity">
+
+    <item
+        android:id="@+id/action_add_record"
+        android:orderInCategory="100"
+        android:title="@string/menu_add_record"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_update_tickers"
+        android:orderInCategory="200"
+        android:title="@string/menu_update_tickers"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="200"
+        android:title="@string/menu_about"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="200"
+        android:title="@string/menu_share"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_github"
+        android:orderInCategory="200"
+        android:title="@string/menu_github"
+        app:showAsAction="never" />
+
+    <!--item
+        android:id="@+id/action_test_1"
+        android:orderInCategory="200"
+        android:title="Test1"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_test_2"
+        android:orderInCategory="200"
+        android:title="Test2"
+        app:showAsAction="never" /-->
+
+
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="200"
+        android:title="@string/menu_exit"
+        app:showAsAction="never" />
+
+
+</menu>
